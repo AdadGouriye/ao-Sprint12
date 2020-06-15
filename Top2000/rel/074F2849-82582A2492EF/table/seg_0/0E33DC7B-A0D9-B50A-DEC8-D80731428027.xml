@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E33DC7B-A0D9-B50A-DEC8-D80731428027" name="List">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<generatorID>7DEFFF2E-5C4D-88DA-3C1B-A3351292DBF7</generatorID>
+<ownerDesignName>Top2000</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="listID" id="CD66585F-3A4F-9728-ECF5-ECFA1564D564">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<generatorID>9F7E4406-F615-3A98-4CEF-BFE908804CD4</generatorID>
+<ownerDesignName>Top2000</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Year" id="1003C35E-BA40-471A-7E75-3D07135678DF">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<generatorID>C605AB16-3A4C-EF70-1863-42B22CF4DF88</generatorID>
+<ownerDesignName>Top2000</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D63C5006-20F0-D8AA-187D-B0EAE01EE09C" name="List_PK">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<generatorID>632BA0EB-E6AA-3BCA-C799-D9EBCC5AFC0D</generatorID>
+<ownerDesignName>Top2000</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD66585F-3A4F-9728-ECF5-ECFA1564D564"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

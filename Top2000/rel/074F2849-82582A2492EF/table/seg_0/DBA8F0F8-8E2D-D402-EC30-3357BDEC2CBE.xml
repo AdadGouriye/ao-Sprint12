@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBA8F0F8-8E2D-D402-EC30-3357BDEC2CBE" name="Role">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<generatorID>FF0BE797-BFAF-6032-FB38-E82A4888BFF0</generatorID>
+<ownerDesignName>Top2000</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="roleID" id="47E569CD-0518-3AD4-ACE7-73B6B534FDAB">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<generatorID>CE27D0A2-A785-D48E-B007-7AE194D9803D</generatorID>
+<ownerDesignName>Top2000</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role" id="20316998-4DC8-2529-6651-D1CCF5973D60">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<generatorID>75727CBE-E1BE-813B-98B5-0A12483AFB72</generatorID>
+<ownerDesignName>Top2000</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40A7D919-13D0-B780-2B1B-5B9E24E92212" name="Role_PK">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<generatorID>A46536D7-B517-8E47-8384-5AAC75097E75</generatorID>
+<ownerDesignName>Top2000</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47E569CD-0518-3AD4-ACE7-73B6B534FDAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

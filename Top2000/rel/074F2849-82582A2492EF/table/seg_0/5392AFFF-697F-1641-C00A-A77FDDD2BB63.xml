@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5392AFFF-697F-1641-C00A-A77FDDD2BB63" name="Artist">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<generatorID>534F1C58-B5A8-C426-AC67-5FFA4A85B3A4</generatorID>
+<ownerDesignName>Top2000</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="artistID" id="952F5972-5E7A-4DEF-53CB-0472BB9E4B30">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<generatorID>776E0C25-4BE5-2DC0-98D0-F40F3492E4B0</generatorID>
+<ownerDesignName>Top2000</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="90AA60EA-5EAF-31BC-E092-ECE961972A55">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<generatorID>9C482A47-0D6B-F136-5EEC-C2736553110A</generatorID>
+<ownerDesignName>Top2000</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC7431E0-C462-A2AB-03A0-BFE475D97DDE" name="Artist_PK">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<generatorID>E664B847-0DBC-2C46-E06D-3A1E702F64BD</generatorID>
+<ownerDesignName>Top2000</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="952F5972-5E7A-4DEF-53CB-0472BB9E4B30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

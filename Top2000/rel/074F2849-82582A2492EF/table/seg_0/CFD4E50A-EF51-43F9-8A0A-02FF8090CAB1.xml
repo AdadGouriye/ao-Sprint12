@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFD4E50A-EF51-43F9-8A0A-02FF8090CAB1" name="Song-Genre">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<ownerDesignName>Top2000</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Song_songID" id="E004392D-CEE5-A1A1-5EB6-4F03AFC2255C">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<ownerDesignName>Top2000</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACA69646-00C9-DA4B-5389-4C545FB77527" referredColumn="C8037982-308A-5FDA-2831-152A4C949CDC"/>
+</associations>
+</Column>
+<Column name="Genre_genreID" id="625D924A-E3F7-66A4-0E26-08A6D7744A57">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<ownerDesignName>Top2000</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C61CFA91-15CC-1D8A-B30C-44720788C680" referredColumn="CDC9DF48-05B4-6F45-83D4-151EBE0D0EF7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E102B1CF-4789-BDBB-66D7-32DE77A58D53" name="Song-Genre_PK">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<ownerDesignName>Top2000</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E004392D-CEE5-A1A1-5EB6-4F03AFC2255C"/>
+<colUsage columnID="625D924A-E3F7-66A4-0E26-08A6D7744A57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7A99204-1435-2C62-B773-1C2F80FBDB13" name="Song-Genre_Song_FK">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<generatorID>7B8377F1-05BD-6706-33FE-7B0AD14790C6</generatorID>
+<ownerDesignName>Top2000</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E004392D-CEE5-A1A1-5EB6-4F03AFC2255C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C801E140-D159-1E09-18D5-3F59126AA8CC" name="Song-Genre_Genre_FK">
+<createdBy>adad_</createdBy>
+<createdTime>2020-06-15 19:37:13 UTC</createdTime>
+<generatorID>7B8377F1-05BD-6706-33FE-7B0AD14790C6</generatorID>
+<ownerDesignName>Top2000</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="625D924A-E3F7-66A4-0E26-08A6D7744A57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
